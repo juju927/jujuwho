@@ -18,7 +18,7 @@ function App() {
           <NavBar />
         </div>
 
-        <div className="grow pt-10 overflow-y-auto">
+        <div className="grow pt-2 xl:pt-10 overflow-y-auto">
           {/* outlet */}
           {/* <AboutPage /> */}
           <ProjectsPage />

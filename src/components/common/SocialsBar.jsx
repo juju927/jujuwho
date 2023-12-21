@@ -20,7 +20,7 @@ const SocialsBar = () => {
     },
   };
   return (
-    <div className="w-fit flex gap-6">
+    <div className="w-fit pt-2 flex gap-6">
       {Object.keys(socials).map((social) => (
         <a
           key={social}

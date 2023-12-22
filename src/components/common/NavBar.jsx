@@ -20,7 +20,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="w-fit flex gap-4">
+    <div className="w-fit flex gap-4 text-black dark:text-white">
       {Object.keys(navs).map((nav) => (
         <NavLink
           to={navs[nav].linkTo}

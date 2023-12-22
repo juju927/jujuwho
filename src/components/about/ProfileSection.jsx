@@ -7,7 +7,7 @@ const ProfileSection = () => {
       src={pfp}
       className="self-center w-24 h-24 md:w-40 md:h-40 rounded-full md:rounded-sm cover"
     />
-    <div className="text-base text-black text-left px-4 flex flex-col gap-4">
+    <div className="text-base text-black dark:text-white/90 text-left px-4 flex flex-col gap-4">
       <p>
         I&apos;m <strong>Joanna</strong>, a software developer from
         Singapore 🇸🇬.

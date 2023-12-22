@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
         className="aspect-auto rounded-md w-full h-full object-cover object-center lg:object-top"
       />
 
-      <div className="absolute rounded-b-md z-10 w-full h-fit bottom-0 bg-black/70 p-2 flex flex-col gap-2">
+      <div className="absolute rounded-b-md z-10 w-full h-fit bottom-0 bg-black/70 backdrop-blur-sm p-2 flex flex-col gap-2">
         <div className="flex">
           <h1 className="grow text-xl text-white font-bold tracking-wider">
             {project?.name}

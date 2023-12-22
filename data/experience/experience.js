@@ -1,0 +1,101 @@
+import gaLogo from "../../src/assets/images/experience/ga-logo.png";
+import sgccLogo from "../../src/assets/images/experience/sgcc-logo.jpg";
+import aspirehubLogo from "../../src/assets/images/experience/aspirehub-logo.jpg";
+import tllLogo from "../../src/assets/images/experience/tll-logo.png";
+import ntuLogo from "../../src/assets/images/experience/ntu-logo.png";
+
+export const workEduExp = [
+  {
+    type: "work",
+    company: "General Assembly",
+    companyLink: "https://generalassemb.ly/",
+    logo: gaLogo,
+    position: "Instructional Associate",
+    dateStart: "Aug 2023",
+    dateEnd: "Nov 2023",
+    description:
+      "IA of SEI46 - Maintained the class GitHub repository, helped to explain concepts that students struggled with and debug student codes.",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "MongoDB",
+      "Express",
+      "npm",
+      "GitHub",
+    ],
+    decoCol: "decoration-red-700 hover:text-red-700",
+  },
+  {
+    type: "education",
+    school: "General Assembly",
+    schoolLink: "https://generalassemb.ly/",
+    logo: gaLogo,
+    course: "Software Engineering Immersive",
+    dateStart: "Mar 2023",
+    dateEnd: "Jun 2023",
+    description:
+      "Fast-paced, 12-week software engineering bootcamp focused on full-stack development.",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "MongoDB",
+      "Express",
+      "npm",
+      "GitHub",
+      "PostgreSQL",
+      "Python",
+    ],
+    decoCol: "decoration-red-700 hover:text-red-700",
+  },
+  {
+    type: "work",
+    company: "SG Code Campus",
+    companyLink: "https://www.sgcodecampus.com/",
+    logo: sgccLogo,
+    position: "Instructor",
+    dateStart: "Dec 2020",
+    dateEnd: "Mar 2022",
+    description:
+      "I was blessed with an opportunity to receive coding lessons from my seniors in order to teach in this company. I picked up Python as my first programming language and started teaching it in 2 weeks. I also picked up Swift and got certified as an AWS Cloud Practitioner. I discovered my love for coding during this job and decided to further my study to start programming full time.",
+    tags: ["Python", "Scratch", "Swift", "AWS"],
+    decoCol: "decoration-orange-500 hover:text-blue-500",
+  },
+  {
+    type: "work",
+    company: "Aspire Hub Education",
+    companyLink: "https://www.aspirehub.com/",
+    logo: aspirehubLogo,
+    position: "Teacher",
+    dateStart: "Jul 2018",
+    dateEnd: "Dec 2019",
+    description: "",
+    decoCol: "decoration-amber-600",
+  },
+  {
+    type: "work",
+    company: "The Learning Lab",
+    companyLink: "https://www.thelearninglab.com.sg/",
+    logo: tllLogo,
+    position: "Specialist Teaching Associate",
+    dateStart: "Mar 2016",
+    dateEnd: "Oct 2017",
+    description: "",
+    decoCol: "decoration-yellow-700",
+  },
+  {
+    type: "education",
+    school: "Nanyang Business School",
+    schoolLink: "https://www.ntu.edu.sg/business",
+    logo: ntuLogo,
+    course: "Bachelor of Accountancy",
+    dateStart: "Aug 2012",
+    dateEnd: "Jun 2016",
+    description: "",
+    tags: [],
+    decoCol: "decoration-red-700 hover:text-red-700",
+  },
+];

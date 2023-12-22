@@ -15,7 +15,7 @@ const EducationItem = ({ experience }) => {
           <div className="flex flex-col lg:flex-row leading-tight">
             {experience?.course}
 
-            <p className="flex items-center">
+            <div className="flex items-center">
               <HiAtSymbol className="text-black/50 mx-1" />
 
               <a
@@ -26,13 +26,13 @@ const EducationItem = ({ experience }) => {
               >
                 {experience?.school}
               </a> 
-            </p>
+            </div>
           </div>
         </div>
-        <p className="flex items-center gap-2 italic text-xs text-black/30">
+        <div className="flex items-center gap-2 italic text-xs text-black/30">
           {experience?.dateStart} - {experience?.dateEnd} 
           <StudyTag />
-        </p>
+        </div>
         <p className="text-black text-sm">{experience?.description}</p>
         <TagList taglist={experience?.tags} />
       </div>

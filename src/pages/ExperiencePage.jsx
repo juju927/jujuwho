@@ -5,10 +5,15 @@ import { workEduExp } from "../../data/experience/experience";
 
 const ExperiencePage = () => {
   return (
-    <div className="flex flex-col gap-2">
-      <PageHeader text="experience/ education" />
+    <div className="flex flex-col gap-2 justify-left">
+      <div className="hidden md:block">
+        <PageHeader text="experience/ education" />
+      </div>
+      <div className="block md:hidden">
+        <PageHeader text="exp/ edu" />
+      </div>
 
-      <div className="pt-4">
+      <div className="self-center pt-4 w-full md:max-w-screen-md">
         {workEduExp.map((experience, idx) =>
           experience?.type == "work" ? (
             <ExperienceItem key={idx} experience={experience} />

@@ -14,7 +14,7 @@ const ExperienceItem = ({ experience }) => {
           <div className="flex flex-col lg:flex-row leading-tight">
             {experience?.position}
 
-            <p className="flex items-center">
+            <div className="flex items-center">
               <HiAtSymbol className="text-black/50 mx-1" />
 
               <a
@@ -25,12 +25,12 @@ const ExperienceItem = ({ experience }) => {
               >
                 {experience?.company}
               </a>
-            </p>
+            </div>
           </div>
         </div>
-        <p className="italic text-xs text-black/30">
+        <div className="italic text-xs text-black/30">
           {experience?.dateStart} - {experience?.dateEnd}
-        </p>
+        </div>
         <p className="text-black text-sm">{experience?.description}</p>
         <TagList taglist={experience?.tags} />
       </div>

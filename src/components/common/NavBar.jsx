@@ -25,12 +25,23 @@ const NavBar = () => {
         <NavLink
           to={navs[nav].linkTo}
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "underline decoration-pink-500 decoration-2" : ""
+            isPending
+              ? "pending"
+              : isActive
+              ? "underline decoration-pink-500 decoration-2"
+              : ""
           }
           key={nav}
         >
-          <div className="text-lg font-mono font-medium tracking-widest">
-            {navs[nav].abbrvLabel}
+          <div className="hidden md:block">
+            <div className="text-lg font-mono font-medium tracking-widest">
+              {navs[nav].label}
+            </div>
+          </div>
+          <div className="block md:hidden">
+            <div className="text-lg font-mono font-medium tracking-widest">
+              {navs[nav].abbrvLabel}
+            </div>
           </div>
         </NavLink>
       ))}

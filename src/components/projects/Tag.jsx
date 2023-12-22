@@ -14,6 +14,7 @@ import {
   SiScratch,
   SiSwift,
   SiAmazonaws,
+  SiGit
 } from "react-icons/si";
 
 const Tag = ({ tag }) => {
@@ -77,6 +78,10 @@ const Tag = ({ tag }) => {
     AWS: {
       logo: <SiAmazonaws />,
       color: "bg-blue-950",
+    },
+    Git: {
+      logo: <SiGit />,
+      color: "bg-orange-600",
     },
   };
 

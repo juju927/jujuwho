@@ -5,13 +5,13 @@ const AboutPage = () => {
   return (
     <div className="flex flex-col gap-2">
 
-      <PageHeader text="juju fullstack dev" />
+      <PageHeader text="about" />
 
       <img src={pfp} className="self-center w-24 h-24 rounded-full cover" />
 
       <div className="text-base text-black text-left px-4 flex flex-col gap-4">
         <p>
-          Hi I&apos;m <strong>Joanna</strong> from Singapore 🇸🇬!
+          I&apos;m <strong>Joanna</strong> from Singapore 🇸🇬!
         </p>
         <p>
           I&apos;ve recently finished my Software Engineering Immersive course
@@ -27,7 +27,7 @@ const AboutPage = () => {
           and cannot wait to apply what I&apos;ve learnt to bring ideas to life.
         </p>
         <p>
-          I love creating simple, aesthetic web apps that go above and beyond my users&apos; expectations.
+          I love creating simple and aesthetic web apps.
         </p>
       </div>
     </div>

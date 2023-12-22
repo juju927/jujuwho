@@ -9,7 +9,11 @@ import {
   SiHtml5,
   SiCss3,
   SiPostgresql,
-  SiFlask
+  SiFlask,
+  SiGithub,
+  SiScratch,
+  SiSwift,
+  SiAmazonaws,
 } from "react-icons/si";
 
 const Tag = ({ tag }) => {
@@ -57,6 +61,22 @@ const Tag = ({ tag }) => {
     Flask: {
       logo: <SiFlask />,
       color: "bg-blue-400",
+    },
+    GitHub: {
+      logo: <SiGithub />,
+      color: "bg-black",
+    },
+    Scratch: {
+      logo: <SiScratch />,
+      color: "bg-amber-500",
+    },
+    Swift: {
+      logo: <SiSwift />,
+      color: "bg-orange-500",
+    },
+    AWS: {
+      logo: <SiAmazonaws />,
+      color: "bg-blue-950",
     },
   };
 

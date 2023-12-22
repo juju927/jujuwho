@@ -1,12 +1,11 @@
 import "./App.css";
 import NavBar from "./components/common/NavBar";
 import SocialsBar from "./components/common/SocialsBar";
-import AboutPage from "./pages/AboutPage";
-import ProjectsPage from "./pages/ProjectsPage";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className="w-screen h-screen flex items-center justify-center bg-indigo-200">
+    <div className="w-screen h-screen flex justify-center bg-indigo-200 pt-10">
       <div className="relative w-11/12 h-5/6 xl:w-2/3 px-2 py-1 rounded-lg bg-white/50 flex flex-col">
         <h1 className="absolute -top-6 left-0 text-2xl text-white font-serif tracking-wide font-semibold">
           someheader
@@ -18,10 +17,8 @@ function App() {
           <NavBar />
         </div>
 
-        <div className="grow pt-2 xl:pt-10 overflow-y-auto">
-          {/* outlet */}
-          {/* <AboutPage /> */}
-          <ProjectsPage />
+        <div className="grow pt-2 xl:pt-10 px-1 overflow-y-auto">
+          <Outlet />
         </div>
 
         <div className="self-start">

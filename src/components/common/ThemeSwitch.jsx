@@ -23,8 +23,8 @@ const ThemeSwitch = () => {
   }, [isDark]);
 
   return (
-    <div onClick={toggleDarkMode}>
-      {isDark ? <img src={capooSleep} className="-translate-y-6 w-24" /> : <img src={capooWork} className="w-24"/>}
+    <div onClick={toggleDarkMode} className="w-24 cursor-pointer">
+      {isDark ? <img src={capooSleep} className="-translate-y-6" /> : <img src={capooWork}/>}
     </div>
   );
 };

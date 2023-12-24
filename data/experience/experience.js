@@ -93,7 +93,7 @@ export const workEduExp = [
     logo: ntuLogo,
     course: "Bachelor of Accountancy",
     dateStart: "Aug 2012",
-    dateEnd: "Jun 2016",
+    dateEnd: "Jan 2016",
     description: "",
     tags: [],
     decoCol: "decoration-red-700 hover:text-red-700",

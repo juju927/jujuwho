@@ -5,7 +5,7 @@ import ThemeSwitch from "./components/common/ThemeSwitch";
 import { Outlet, useLocation, Navigate } from "react-router-dom";
 
 function App() {
-  const location = useLocation()
+  const location = useLocation();
 
   return (
     <div className="w-screen h-screen flex justify-center items-center bg-indigo-200 dark:bg-black">
@@ -14,14 +14,18 @@ function App() {
           <ThemeSwitch />
         </h1>
         <h1 className="absolute -bottom-4 right-0 text-xs text-black/50 dark:text-white/50">
-          © 2023 Joanna
+          © 2024 Joanna
         </h1>
         <div className="self-end">
           <NavBar />
         </div>
 
         <div className="grow pt-2 xl:pt-10 px-1 overflow-y-auto flex justify-center">
-          { location.pathname == "/" ? <Navigate to="/about" replace={true} /> : <Outlet />}
+          {location.pathname == "/" ? (
+            <Navigate to="/about" replace={true} />
+          ) : (
+            <Outlet />
+          )}
         </div>
 
         <div className="self-start">

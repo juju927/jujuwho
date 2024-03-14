@@ -3,8 +3,22 @@ import sgccLogo from "../../src/assets/images/experience/sgcc-logo.jpg";
 import aspirehubLogo from "../../src/assets/images/experience/aspirehub-logo.jpg";
 import tllLogo from "../../src/assets/images/experience/tll-logo.png";
 import ntuLogo from "../../src/assets/images/experience/ntu-logo.png";
+import mndLogo from "../../src/assets/images/experience/mnd-logo.jpg";
 
 export const workEduExp = [
+  {
+    type: "work",
+    company: "Mainnet Digital",
+    companyLink: "https://www.mainnetdigital.com/",
+    logo: mndLogo,
+    position: "Junior Developer",
+    dateStart: "Feb 2024",
+    dateEnd: "Present",
+    description:
+      "My first full-time role as a software developer. I was writing code used by the company's internal processes by the second day. By the second week, I had automated part of the company's daily processes, saving 20-30 min of the 3-man Tech team per day, also minimizing errors in data handover and manual entry. On my third week, I spearheaded the development of a new process flow in the company's project, which included different calculation logic.",
+    tags: ["JavaScript", "GitHub"],
+    decoCol: "decoration-red-700 hover:text-red-700",
+  },
   {
     type: "work",
     company: "General Assembly",

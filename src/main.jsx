@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Navigate,
+} from "react-router-dom";
 
 import "./index.css";
 import App from "./App.jsx";
@@ -12,7 +16,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <Navigate to="/about" replace={true} />,
     children: [
       {
         path: "about",
@@ -25,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "experience",
         element: <ExperiencePage />,
+      },
+      {
+        path: "*", // Catch-all route for undefined URLs
+        element: <Navigate to="/about" replace={true} />,
       },
     ],
   },

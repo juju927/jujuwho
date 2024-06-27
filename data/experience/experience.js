@@ -15,7 +15,7 @@ export const workEduExp = [
     dateStart: "Feb 2024",
     dateEnd: "Present",
     description:
-      "My first full-time role as a software developer. I was writing code used by the company's internal processes by the second day. By the second week, I had automated part of the company's daily processes, saving 20-30 min of the 3-man Tech team per day, also minimizing errors in data handover and manual entry. On my third week, I spearheaded the development of a new process flow in the company's project, which included different calculation logic.",
+      "My first full-time role as a software developer. I initiated and implemented the automation of various company's internal processes, saving hours of work of the tech & ops teams, minimising errors in data handover and manual entry. I also created Telegram & Lark bots to help with both communication with external parties and better UX for internal flows. Being part of a small Tech team of 2 people meant that we both had lots of responsibility resting on our shoulders, but we ensured that the company's ever-changing demands were reliably and quickly met.",
     tags: ["JavaScript", "GitHub"],
     decoCol: "decoration-red-700 hover:text-red-700",
   },

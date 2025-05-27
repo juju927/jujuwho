@@ -12,7 +12,7 @@ const SocialsBar = () => {
     },
     linkedIn: {
       icon: <SiLinkedin />,
-      link: "https://linkedin.com/in/juju927/",
+      link: "https://linkedin.com/in/jujcodes/",
     },
     twitter: {
       icon: <SiTwitter />,

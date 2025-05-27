@@ -13,7 +13,7 @@ export const workEduExp = [
     logo: mndLogo,
     position: "Junior Developer",
     dateStart: "Feb 2024",
-    dateEnd: "Present",
+    dateEnd: "Mar 2025",
     description:
       "My first full-time role as a software developer. I initiated and implemented the automation of various company's internal processes, saving hours of work of the tech & ops teams, minimising errors in data handover and manual entry. I also created Telegram & Lark bots to help with both communication with external parties and better UX for internal flows. Being part of a small Tech team of 2 people meant that we both had lots of responsibility resting on our shoulders, but we ensured that the company's ever-changing demands were reliably and quickly met.",
     tags: ["JavaScript", "GitHub"],

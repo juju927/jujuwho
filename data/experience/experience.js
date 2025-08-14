@@ -6,7 +6,6 @@ import tllLogo from "../../src/assets/images/experience/tll-logo.png";
 import ntuLogo from "../../src/assets/images/experience/ntu-logo.png";
 import mndLogo from "../../src/assets/images/experience/mnd-logo.jpg";
 
-
 export const workEduExp = [
   {
     type: "work",

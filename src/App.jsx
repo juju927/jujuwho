@@ -14,7 +14,7 @@ function App() {
           <ThemeSwitch />
         </h1>
         <h1 className="absolute -bottom-4 right-0 text-xs text-black/50 dark:text-white/50">
-          © 2024 Joanna
+          © 2025 Joanna
         </h1>
         <div className="self-end">
           <NavBar />

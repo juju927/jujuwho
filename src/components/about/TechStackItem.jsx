@@ -1,6 +1,5 @@
 import TagList from "../projects/TagList"
 
-
 const TechStackItem = ({ tech }) => {
   return (
     <div className="pb-2">

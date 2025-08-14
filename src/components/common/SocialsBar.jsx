@@ -24,7 +24,7 @@ const SocialsBar = () => {
       {Object.keys(socials).map((social) => (
         <a
           key={social}
-          className="text-2xl cursor-pointer text-black/80 dark:text-white/80 hover:text-sky-600"
+          className="text-2xl cursor-pointer text-black/80 dark:text-white/80 hover:text-sky-600 transition-color duration-300"
           href={socials[social].link}
           target="_blank"
           rel="noopener noreferrer"

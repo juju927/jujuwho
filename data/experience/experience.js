@@ -30,7 +30,7 @@ export const workEduExp = [
     description:
       "In my first year as a full-time developer, I learned what it meant to own projects end-to-end and to keep them running smoothly for thousands of users. I built automation, chatbots, and high-traffic services, saving my team hours of manual work and helping the company respond quickly to changing needs.",
     tags: ["JavaScript", "TypeScript", "GitHub"],
-    decoCol: "decoration-red-700 hover:text-red-700",
+    decoCol: "decoration-indigo-500",
   },
   {
     type: "work",
@@ -111,7 +111,7 @@ export const workEduExp = [
     dateStart: "Mar 2016",
     dateEnd: "Oct 2017",
     description: "",
-    decoCol: "decoration-yellow-700",
+    decoCol: "decoration-yellow-700 hover:text-yellow-700",
   },
   {
     type: "education",

@@ -14,8 +14,10 @@ import {
   SiScratch,
   SiSwift,
   SiAmazonaws,
-  SiGit
+  SiGit,
+  SiTypescript
 } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 const Tag = ({ tag }) => {
   const tagLogoCol = {
@@ -83,6 +85,14 @@ const Tag = ({ tag }) => {
       logo: <SiGit />,
       color: "bg-orange-600",
     },
+    TypeScript: {
+      logo: <SiTypescript />,
+      color: "bg-sky-400",
+    },
+    Java: {
+      logo: <FaJava />,
+      color: "bg-orange-500"
+    }
   };
 
   return (

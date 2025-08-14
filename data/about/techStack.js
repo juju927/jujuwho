@@ -1,7 +1,7 @@
 export const techStack = [
   {
     category: "Core",
-    tags: ["Python", "JavaScript"],
+    tags: ["Python", "JavaScript", "TypeScript", "Java"],
     style: "text-fuchsia-400",
   },
   {

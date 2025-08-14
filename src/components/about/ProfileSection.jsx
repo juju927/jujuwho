@@ -2,28 +2,18 @@ import pfp from "../../assets/images/about/temp.jpg";
 
 const ProfileSection = () => {
   return (
-    <div className="flex flex-col md:flex-row md:gap-2 md:pb-4">
+    <div className="flex flex-col text-center md:text-left md:flex-row md:gap-2 md:pb-4">
       <img
         src={pfp}
-        className="self-center w-24 h-24 md:w-40 md:h-40 rounded-full md:rounded-sm cover"
+        className="self-center mb-4 w-32 h-32 md:w-40 md:h-40 rounded-full md:rounded-sm cover"
       />
-      <div className="text-base text-black dark:text-white/90 text-left px-4 flex flex-col gap-4">
+      <div className="text-base text-black dark:text-white/90 text-center md:text-left px-4 flex flex-col gap-4">
         <p>
           I&apos;m <strong>Joanna</strong>, a software developer from Singapore
           🇸🇬.
         </p>
         <p>
-          I&apos;ve recently finished my Software Engineering Immersive course
-          at{" "}
-          <a
-            href="https://generalassemb.ly/"
-            className="text-red-600 font-bold uppercase tracking-tighter hover:bg-red-600 hover:text-white"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            General Assembly
-          </a>{" "}
-          and cannot wait to apply what I&apos;ve learnt to bring ideas to life.
+          After a year in the industry, I love that I can now make (most of) the ideas in my head come to life (after a lot of procrastination). It's always one rabbit hole after another?!
         </p>
         <p>
           I love creating minimalistic web apps that contain various cute

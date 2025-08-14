@@ -1,3 +1,4 @@
+import raLogo from "../../src/assets/images/experience/red-alpha-logo.png"
 import gaLogo from "../../src/assets/images/experience/ga-logo.png";
 import sgccLogo from "../../src/assets/images/experience/sgcc-logo.jpg";
 import aspirehubLogo from "../../src/assets/images/experience/aspirehub-logo.jpg";
@@ -5,18 +6,31 @@ import tllLogo from "../../src/assets/images/experience/tll-logo.png";
 import ntuLogo from "../../src/assets/images/experience/ntu-logo.png";
 import mndLogo from "../../src/assets/images/experience/mnd-logo.jpg";
 
+
 export const workEduExp = [
+  {
+    type: "work",
+    company: "Red Alpha Cybersecurity",
+    companyLink: "https://www.redalphacyber.com/",
+    logo: raLogo,
+    position: "Trainee",
+    dateStart: "July 2025",
+    dateEnd: "Now",
+    description: "Wrapping up a fast-paced 10-week web development course to sharpen my skills before contributing to an exciting new project at ST Engineering.",
+    tags: ["Java", "JavaScript", "React"],
+    decoCol: "decoration-red-700 hover:text-red-700",
+  },
   {
     type: "work",
     company: "Mainnet Digital",
     companyLink: "https://www.mainnetdigital.com/",
     logo: mndLogo,
-    position: "Junior Developer",
+    position: "Software Developer",
     dateStart: "Feb 2024",
     dateEnd: "Mar 2025",
     description:
-      "My first full-time role as a software developer. I initiated and implemented the automation of various company's internal processes, saving hours of work of the tech & ops teams, minimising errors in data handover and manual entry. I also created Telegram & Lark bots to help with both communication with external parties and better UX for internal flows. Being part of a small Tech team of 2 people meant that we both had lots of responsibility resting on our shoulders, but we ensured that the company's ever-changing demands were reliably and quickly met.",
-    tags: ["JavaScript", "GitHub"],
+      "In my first year as a full-time developer, I learned what it meant to own projects end-to-end and to keep them running smoothly for thousands of users. I built automation, chatbots, and high-traffic services, saving my team hours of manual work and helping the company respond quickly to changing needs.",
+    tags: ["JavaScript", "TypeScript", "GitHub"],
     decoCol: "decoration-red-700 hover:text-red-700",
   },
   {
@@ -28,7 +42,7 @@ export const workEduExp = [
     dateStart: "Aug 2023",
     dateEnd: "Nov 2023",
     description:
-      "IA of SEI46 - Maintained the class GitHub repository, helped to explain concepts that students struggled with and debug student codes.",
+      "I worked closely with a class of budding developers (shoutout to SEI46, I hope y'all are doing great!!), guiding them through code challenges, breaking down tough concepts, celebrating their wins, and learning alongside them. My goal was always the same - to make learning feel clear, encouraging, and achievable - and I'd like to think I achieved that :)",
     tags: [
       "HTML",
       "CSS",
@@ -50,7 +64,7 @@ export const workEduExp = [
     dateStart: "Mar 2023",
     dateEnd: "Jun 2023",
     description:
-      "Fast-paced, 12-week software engineering bootcamp focused on full-stack development.",
+      "An intense 12-week full-stack bootcamp packed with non-stop learning, problem-solving, and hands-on projects... it was SO fast, SO challenging, SO exhausting… but super fun.",
     tags: [
       "HTML",
       "CSS",

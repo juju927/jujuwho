@@ -18,6 +18,10 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
+        index: true,
+        element: <Navigate to="/about" replace={true} />
+      },
+      {
         path: "about",
         element: <AboutPage />,
       },

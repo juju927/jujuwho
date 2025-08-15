@@ -3,6 +3,7 @@ import qrikupic from "../../src/assets/images/projects/qriku.png"
 import mastermindpic from "../../src/assets/images/projects/mastermind.png"
 import tooforatepic from "../../src/assets/images/projects/tooforate.png"
 import bbbpic from "../../src/assets/images/projects/beepbeepboop.png"
+import weatherapppic from "../../src/assets/images/projects/weatherapp.png"
 
 export const projects = [
   {
@@ -26,6 +27,18 @@ export const projects = [
     links: {
       demo: "",
       github: "https://github.com/juju927/qriku",
+      reflections: "",
+    },
+  },
+  {
+    name: "y sg so hot",
+    date: "",
+    description: "🌦️ My silly little weather app",
+    image: weatherapppic,
+    tags: ["JavaScript", "React", "tailwindcss"],
+    links: {
+      demo: "https://weather-dashboard-zfsy.onrender.com/",
+      github: "https://github.com/juju927/weather-dashboard",
       reflections: "",
     },
   },

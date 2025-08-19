@@ -5,10 +5,10 @@ import { projects } from "../../data/projects/projects.js"
 const ProjectsPage = () => {
 
   return (
-    <div className="flex flex-col gap-2 ">
+    <div className="flex flex-col gap-2 items-center">
       <PageHeader text="projects" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 place-items-center">
+      <div className="mt-w-10/12 md:w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 auto-rows-[1fr] gap-6">
         { projects.map((project) => (
           <ProjectCard key={project.name} project={project} />
         ))}

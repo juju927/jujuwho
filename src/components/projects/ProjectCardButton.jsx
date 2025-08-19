@@ -15,7 +15,7 @@ const ProjectCardButton = ({ type, link }) => {
 
 	return (
 		<a
-			className="cursor:pointer flex items-center gap-2 bg-sky-500 px-2 py-1 rounded-md text-white shadow shadow-white/50"
+			className="h-fit w-fit cursor:pointer flex items-center gap-2 bg-sky-500 hover:bg-sky-700 transition-colors ease-in px-2 py-2 rounded-md text-white shadow shadow-white/50"
 			title={TYPES[type].title}
 			href={link}
 			target="_blank"

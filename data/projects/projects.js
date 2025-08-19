@@ -3,7 +3,7 @@ import qrikupic from "../../src/assets/images/projects/qriku.png"
 import mastermindpic from "../../src/assets/images/projects/mastermind.png"
 import tooforatepic from "../../src/assets/images/projects/tooforate.png"
 import bbbpic from "../../src/assets/images/projects/beepbeepboop.png"
-import weatherapppic from "../../src/assets/images/projects/weatherapp.png"
+import weatherapppic from "../../src/assets/images/projects/weatherdash.png"
 
 export const projects = [
   {
@@ -31,7 +31,7 @@ export const projects = [
     },
   },
   {
-    name: "y sg so hot",
+    name: "how's the weather?",
     date: "",
     description: "🌦️ My silly little weather app",
     image: weatherapppic,
